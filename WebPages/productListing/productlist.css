@@ -13,9 +13,9 @@
 
 
 .filter-and-category{
-    display: flex;
-    flex-direction: column;
-    grid-area: scroller;
+display: flex;
+flex-direction: column;
+ grid-area: scroller;
 overflow-y: auto;
 overflow-x: auto;
 position: sticky;
@@ -26,12 +26,15 @@ color: var(--primary-color);
 box-shadow: none;
 color: var(--text-color);
 min-width: 250px;
+font-family: 'Open Sans', sans-serif;
 }
 
 .price-range{
     justify-content: flex-start;
    gap: 2.5rem;
 }
+
+
 
 .scroll-input{
     flex-direction: column ;
@@ -47,7 +50,6 @@ min-width: 250px;
 
 .product-container{
     width: 100%;
-   
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding: 1rem;
@@ -56,16 +58,25 @@ min-width: 250px;
 
 
 
+.card-skeleton{
+    height: 100%;
+    box-shadow: var(--shadow-box);
+}
+
+
+/*   For image poditioning  (start)       */
+
+
 .imageContainer{
-height: 40%;
+    height: 50%;
 }
 
 .image{
-    height: auto;
-
+    object-fit: fill;
+    width: 100%;
 }
 
-
+/*   For image poditioning   (end)      */
 
 
 @media screen and (max-width:1200px){
@@ -91,10 +102,6 @@ height: 40%;
 }
 
 
-/* @media screen and (max-width:600px){
-    .product-container{
-        grid-template-columns: 1fr;
-    }
-} */
+
 
 
