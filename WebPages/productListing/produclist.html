@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+        integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://frid-ui.netlify.app/main.css">
+    <link rel="stylesheet" href="productlist.css">
+    <title>Products</title>
+</head>
+
+<body>
+    <div class="nav-container white">
+
+        <div>
+            <a href="">
+                <img src="/images/Follow the sun. (1)(50).png" alt="">
+            </a>
+            <h2 class="title">San Francisco, CA</h2>
+        </div>
+
+
+
+        <div class="icons display-flex">
+            <button class="primary-button">Login</button>
+            <div class="relative-button-container">
+                <i class="fas fa-shopping-cart"></i>
+                <p class="button-badge icon-badge">4</p>
+            </div>
+            <div class="relative-button-container">
+                <i class="fas fa-heart"></i>
+                <p class="button-badge icon-badge">4</p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="product-listing-body">
+
+
+        <div class="filter-and-category megaContainer">
+
+            <div class="topContainer flex-space-between">
+                <h3>Filters</h3>
+                <p>Clear</p>
+            </div>
+
+
+            <div class="input scroll-input display-flex">
+                <h4>Price</h4>
+                <div class="price-range display-flex">
+                    <p>50</p>
+                    <p>150</p>
+                    <p>200</p>
+                </div>
+
+                <input type="range" id="range-input" min="0" max="100" defaultValue="10" />
+            </div>
+
+            <div class="radio-list radio-category spacing-s">
+                <div class="list-title">
+                    <p>Category</p>
+                </div>
+
+                <div class="radio-list-items">
+                    <div class="list-item">
+                        <input id="item-1" type="radio" name="radio-input">
+                        <label for="item-1">Tents</label>
+                    </div>
+                    <div class="list-item">
+                        <input id="item-2" type="radio" name="radio-input">
+                        <label for="item-1">Sleeping Bags</label>
+                    </div>
+
+                    <div class="list-item">
+                        <input id="item-3" type="radio" name="radio-input">
+                        <label for="item-2">Clothing</label>
+                    </div>
+
+                    <div class="list-item">
+                        <input id="item-4" type="radio" name="radio-input">
+                        <label for="item-4">Accessories</label>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+            <div class="checheckbox-list spacing-s text-align-center">
+                <div class="list-title">
+                    <p>Rating</p>
+                </div>
+
+                <div class="checkbox-list-items">
+                    <div class="list-item">
+                        <input id="item-1" type="checkbox" name="checkbox-input">
+                        <label for="item-1">4 stars and above</label>
+                    </div>
+                    <div class="list-item">
+                        <input id="item-2" type="checkbox" name="checkbox-input">
+                        <label for="item-1">3-4 stars</label>
+                    </div>
+
+                    <div class="list-item">
+                        <input id="item-3" type="checkbox" name="checkbox-input">
+                        <label for="item-2">2-3 stars</label>
+                    </div>
+
+                    <div class="list-item">
+                        <input id="item-4" type="checkbox" name="checkbox-input">
+                        <label for="item-4">Below 2 stars</label>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="radio-list radio-category spacing-s">
+                <div class="list-title">
+                    <p>Sort By</p>
+                </div>
+
+                <div class="radio-list-items">
+                    <div class="list-item">
+                        <input id="item-1" type="radio" name="radio-input-2">
+                        <label for="item-1">Price-Low to High</label>
+                    </div>
+                    <div class="list-item">
+                        <input id="item-2" type="radio" name="radio-input-2">
+                        <label for="item-1">Price-High to Low</label>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <div class="product-container">
+
+            <div class="vertical-card-component">
+
+                <div class="card-skeleton border-black">
+
+                    <div class="imageContainer position-relative">
+                        <img class="image" src="https://m.media-amazon.com/images/I/81nNfg96Z8L._SL1500_.jpg" alt="">
+                        <h3 class="card-content">Men premium Jacket</h3>
+                        <i class="fas fa-heart heart-icon " style="user-select: auto;"></i>
+                    </div>
+
+                    <div class="content">
+                        <h5>Rs 1000</h5>
+                    </div>
+
+                    <div class="footer-button">
+                        <button class="card-button">Add to cart</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+            <div class="vertical-card-component">
+
+                <div class="card-skeleton border-black">
+
+                    <div class="imageContainer position-relative">
+                        <img class="image"
+                            src="https://rukminim1.flixcart.com/image/416/416/jv2p6kw0/tent/d/v/c/7-portable-waterproof-camping-dome-tent-6-person-military-tent-original-imaekkv24jp5wmcy.jpeg?q=70"
+                            alt="">
+                        <h3 class="card-content">Men premium Jacket</h3>
+                        <i class="far fa-heart heart-icon"></i>
+                    </div>
+
+                    <div class="content">
+                        <h5>Rs 1000</h5>
+                    </div>
+
+                    <div class="footer-button">
+                        <button class="card-button">Add to cart</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="vertical-card-component">
+
+                <div class="card-skeleton border-black">
+
+                    <div class="imageContainer position-relative">
+                        <img class="image" src="/images/kemal-alkan-_BDBEP0ePQc-unsplash.jpg" alt="">
+                        <h3 class="card-content">Men premium Jacket</h3>
+                        <i class="far fa-heart heart-icon"></i>
+                    </div>
+
+                    <div class="content">
+                        <h5>Rs 1000</h5>
+                    </div>
+
+                    <div class="footer-button">
+                        <button class="card-button">Add to cart</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="vertical-card-component">
+
+                <div class="card-skeleton border-black">
+
+                    <div class="imageContainer position-relative">
+                        <img class="image" src="/images/kemal-alkan-_BDBEP0ePQc-unsplash.jpg" alt="">
+                        <h3 class="card-content">Men premium Jacket</h3>
+                        <i class="far fa-heart heart-icon"></i>
+                    </div>
+
+                    <div class="content">
+                        <h5>Rs 1000</h5>
+                    </div>
+
+                    <div class="footer-button">
+                        <button class="card-button">Add to cart</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+            <div class="vertical-card-component">
+
+                <div class="card-skeleton border-black">
+
+                    <div class="imageContainer position-relative">
+                        <img class="image" src="/images/kemal-alkan-_BDBEP0ePQc-unsplash.jpg" alt="">
+                        <h3 class="card-content">Men premium Jacket</h3>
+                        <i class="far fa-heart heart-icon"></i>
+                    </div>
+
+                    <div class="content">
+                        <h5>Rs 1000</h5>
+                    </div>
+
+                    <div class="footer-button">
+                        <button class="card-button">Add to cart</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+</body>
+
+</html>
