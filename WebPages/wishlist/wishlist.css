@@ -2,6 +2,8 @@
 @import url(/index.css);
 @import url(/WebPages/productListing/productlist.css);
 
+
+
 body{
     font-family: roboto;
     color: var(--text-color);
@@ -11,14 +13,21 @@ body{
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding: 1rem;
     gap: 2rem;
-    padding: 3rem;
+    padding:2rem 0 0 4rem ;
 }
 
 .heart-icon{
     color: red;
     border-radius: 50%;
+}
+
+.wishlist-card{
+    width: 18rem;
+}
+
+.icons{
+    padding: 0 1rem;
 }
 
 
