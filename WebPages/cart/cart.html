@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+        integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://frid-ui.netlify.app/main.css">
+    <link rel="stylesheet" href="/WebPages/cart/cart.css">
+    <title>Cart</title>
+</head>
+
+<body>
+    <div class="nav-container white">
+
+        <div>
+            <a href="/index.html">
+                <img src="/images/Follow the sun. (1)(50).png" alt="">
+            </a>
+        </div>
+
+
+
+        <div class="icons display-flex">
+            <a href="/WebPages/login/login.html"><button class="primary-button">Login</button></a>
+            <div class="relative-button-container">
+                <i class="fas fa-shopping-cart"></i>
+                <p class="button-badge icon-badge">4</p>
+            </div>
+            <div class="relative-button-container">
+                <i class="fas fa-heart"></i>
+                <p class="button-badge icon-badge">4</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="cart-heading">
+        <h1 class="small-heading-text flex-justify-center margin-1rem">My cart(2)</h1>
+    </div>
+
+
+    <div class="cart-container margin-1rem">
+        <div class="horizontal-card-component">
+            <div class="card-skeleton horizontal-card border-black ">
+
+                <div class="horizontal-image-container position-relative">
+                    <img class="image-horizontal" src="https://www.active.com/Assets/Outdoors/360x240/Hiking-Boots.jpg"
+                        alt="">
+                    <i class="far fa-heart heart-icon heart-horizontal" style="user-select: auto;"></i>
+                </div>
+
+                <div class="horizontal-card-content">
+                    <h3>Men premium Jacket</h3>
+                    <h4>Rs 200</h4>
+                    <p>50% off</p>
+                    <div class="quantity">
+                        <p>quantity:</p>
+                        <button class="quantity-button">+</button>
+                        <p>2</p>
+                        <button class="quantity-button">-</button>
+                    </div>
+
+                    <button class="horizontal-card-buttons button-cart"> Remove from cart </button>
+                    <button class="horizontal-card-buttons button-cart">Move to wishlist</button>
+
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="price-card">
+
+            <div class="card-heading">
+                <h2>Price Details</h2>
+            </div>
+            <hr class="divider">
+            <div class="price-calculation">
+                <div class="price-components display-flex">
+                    <p>Price(2 items)</p>
+                    <p> &#8377 4999</p>
+                </div>
+                <div class="price-components display-flex">
+                    <p>Discount</p>
+                    <p>- &#8377 4999</p>
+                </div>
+                <div class="price-components display-flex">
+                    <p>Delivery</p>
+                    <p> &#8377 4999</p>
+                </div>
+            </div>
+            <hr class="divider">
+            <div class="total-amount display-flex">
+                <h3>Toatal Amount</h3>
+                <p> &#8377 6666</p>
+            </div>
+
+            <p>you will save &#8377 8888 in this order</p>
+
+            <button class="primary-button">
+                Place order
+            </button>
+
+        </div>
+
+
+
+    </div>
+
+</body>
+
+</html>
