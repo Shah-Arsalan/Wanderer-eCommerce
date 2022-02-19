@@ -2,4 +2,28 @@
   --primary-color: #c9e265;
   --notification-color: rgb(241, 100, 100);
   --shadow-box: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  --card-text: #505350;
+  --hover-color: #9dcfbc;
+}
+
+.primary-button {
+  color: var(--text-color);
+  border: transparent;
+  font-family: sans-serif;
+}
+
+.content {
+  color: var(--text-color);
+}
+
+.card-button {
+  color: var(--text-color);
+}
+
+.card-button:hover {
+  background-color: var(--hover-color);
+}
+
+.fas:hover {
+  color: var(--hover-color);
 }
