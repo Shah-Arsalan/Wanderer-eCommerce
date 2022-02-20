@@ -2,55 +2,83 @@
 @import url(/index.css);
 @import url(/WebPages/productListing/productlist.css);
 
+.cart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-.cart-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  
-    flex-wrap: wrap;
-    gap: 2rem;
+  flex-wrap: wrap;
+  gap: 2rem;
 }
 
-.button-cart{
-    margin-top: 1rem;
-    color: white;
+.button-cart {
+  margin-top: 1rem;
+  color: white;
 }
 
-.price-card{
-    
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    min-width: 300px;
-    height: 300px;
-    justify-content: space-between;
-    padding: 1rem;
-    box-shadow: var(--shadow-box);
-    font-family: 'Open Sans', sans-serif;
-    color: var(--text-color)
+.price-card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  min-width: 300px;
+  height: 300px;
+  justify-content: space-between;
+  padding: 1rem;
+  box-shadow: var(--shadow-box);
+  font-family: "Open Sans", sans-serif;
+  color: var(--text-color);
 }
 
-.price-calculation{
-    gap: 1rem;
+.price-calculation {
+  gap: 1rem;
 }
 
-.price-components{
-    justify-content: space-between;
-    padding: .2rem 0 ;
+.price-components {
+  justify-content: space-between;
+  padding: 0.2rem 0;
 }
 
-.total-amount{
-    justify-content: space-between;
+.total-amount {
+  justify-content: space-between;
 }
 
-.divider{
-    color: var(--text-color);
+.divider {
+  color: var(--text-color);
 }
 
-.image-horizontal{
-    border-radius: 1rem;
+.image-horizontal {
+  border-radius: 1rem;
 }
 
+.horizontal-card-content {
+  color: var(--text-color);
+}
 
+.quantity button {
+  background-color: var(--white);
+  border: 1px solid var(--text-color);
+  border-radius: 1rem;
+  cursor: pointer;
+}
+.horizontal-card-buttons {
+  color: var(--text-color);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  width: 70%;
+}
 
+.button-cart:nth-last-of-type(1) {
+  background-color: white;
+  border: 1px solid var(--primary-color);
+}
+
+.button-cart:nth-last-of-type(1):hover {
+  background-color: var(--notification-color);
+  border: 1px solid transparent;
+  color: var(--white);
+}
+
+.button-cart:nth-last-of-type(2):hover {
+  background-color: #9fbb2d;
+  color: var(--white);
+}

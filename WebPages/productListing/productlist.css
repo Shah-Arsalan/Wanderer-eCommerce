@@ -78,6 +78,14 @@ a {
   box-shadow: var(--shadow-box);
 }
 
+.radio-list {
+  align-self: flex-start;
+}
+
+.list-title {
+  align-self: flex-start;
+}
+
 /*   For image poditioning  (start)       */
 
 .imageContainer {
