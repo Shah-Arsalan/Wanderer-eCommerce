@@ -1,52 +1,58 @@
 @import url(/main.css);
 @import url(/index.css);
 
-html { 
-    background: url(https://images.unsplash.com/photo-1542359649-31e03cd4d909?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-
-.login-container{
-    font-family: roboto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    
+html {
+  background: url(https://images.unsplash.com/photo-1542359649-31e03cd4d909?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80)
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-.login-inputs{
-    background-color: var(--white);
-    width: 25rem;
-    height: 30rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    box-shadow: var(--shadow-box);
-    align-items: center;
+.login-container {
+  font-family: roboto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-.forgot-password a{
-   margin-left: auto;
-   text-decoration: none;
+.login-inputs {
+  background-color: var(--white);
+  width: 25rem;
+  height: 40rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: var(--shadow-box);
+  align-items: center;
+  padding: 2rem;
 }
 
-.login-container button{
-    width: 100%;
+.forgot-password a {
+  margin-left: auto;
+  text-decoration: none;
 }
 
-.login-container a{
-    text-decoration: none;
-    justify-content: center;
-} 
+.login-container button {
+  width: 100%;
+}
+
+.login-container a {
+  text-decoration: none;
+  justify-content: center;
+}
+
+.input {
+  margin: 0.75rem;
+  width: 80%;
+}
 
 input[type="password"] {
-    border: 1px solid ;
-  }
+  border: 1px solid;
+}
 
-  input[type="email"] {
-    border: 1px solid ;
-  }
+input[type="email"] {
+  border: 1px solid;
+}
